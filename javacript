@@ -1,0 +1,25 @@
+//javascript
+function KIP(){
+    let X = Math.floor(Math.random()*10);
+    let list2 = ['https://www.foodpanda.co.th/restaurant/y7kl/meow-meow-kao-kluk-ka-pi#'
+   ,'https://www.foodpanda.co.th/restaurant/y7kl/meow-meow-kao-kluk-ka-pi#'
+   ,'https://www.foodpanda.co.th/restaurant/q7ig/khrua-nui-pho-chana#'
+   ,'https://www.foodpanda.co.th/restaurant/p2mh/chok-udom-suk'
+   ,'https://www.foodpanda.co.th/restaurant/lge7/jan-hom#'
+   ,'https://www.foodpanda.co.th/restaurant/v5dv/chillax-cafe#'
+   ,'https://www.foodpanda.co.th/restaurant/v8qy/nong-orm-tom-yum-pork-noodles#'
+    ,'https://www.foodpanda.co.th/restaurant/k7am/khaw-yum-tai-pla-nai-luek#'
+    ,'https://www.foodpanda.co.th/restaurant/hmy8/nadia-tamsang#'
+    ,'https://www.foodpanda.co.th/restaurant/a5ma/bell-bee-make-to-order-saengphet#'
+ ,'https://www.foodpanda.co.th/restaurant/h7zm/som-tam-pa-nok-noi#restaurant-info'
+   ,"หอยทอด","ข้าวผัดกะปิ","สลัด","ข้าวผัดต้มยำ","ก๋วยเตี๋ยวเรือ","ข้าวซาบะย่างซีอิ้ว","ก๋วยเตี๋ยวเนื้อ","ข้าวผัดพริก","ข้าวผัด","ข้าวหมูทอด","ข้าวไข่กระทะ"]
+  let po = (location.href = list2[X])
+  console.log(po)
+  let F = X+11
+  let RUT  = list2[F]
+  return RUT
+}
+function display(){
+   document.getElementById("OL").innerHTML = KIP()
+}
+
